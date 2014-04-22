@@ -13,7 +13,7 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
     for (int i=0; i<points.size(); i++) {
-        points[i].y = ofGetHeight()/2 + sin(i + `ofGetElapsedTimef()) * 100;
+        points[i].y = ofGetHeight()/2 + sin(i + ofGetElapsedTimef()) * 100;
         
     }
 }
